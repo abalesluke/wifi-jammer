@@ -33,7 +33,7 @@ for wifi in wifi_in_range:
 
 def jam(address):
 	conf.iface = interface
-	bssid = 'wlan0'
+	bssid = address
 	client = "FF:FF:FF:FF:FF:FF"
 	count = 3
 	conf.verb = 0
